@@ -1,0 +1,206 @@
+body {
+    height: 100%;
+    background-color: rgb(232, 239, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    background-color: WHITE;
+    height: 600px;
+    width: 800PX;
+    box-shadow: 0px 0px 0.5px;
+    margin-top: 180px;
+    margin-left: 350px;
+    position: fixed;
+
+    .main{
+        background-color: white;
+        height: 250px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    .second {
+        background-color: hsl(179, 62%, 43%);
+        height: 320px;
+        width: 400px;
+        
+    }
+    .third {
+        background-color: rgb(107, 187, 187);
+        height: 320px;
+        width: 400px;
+        margin-left: 400px;
+        margin-top: -320px;
+    }
+}
+
+.main h2 {
+    color: hsl(179, 62%, 43%);
+    line-height: 50px;
+}
+
+.main p {
+    color: hsl(71, 86%, 49%);
+    line-height: 40px
+}
+
+.main p1 {
+    color: rgb(199, 203, 212);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.second span1 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 5;
+    margin-left :40px;
+    
+}
+
+.second span2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left :40px;
+}
+
+.second span3 {
+    color:  rgb(185, 252, 255);
+    margin-left :4px;
+    
+}
+
+.second p3 {
+    color: rgb(250, 247, 247);
+    margin-left :40px;
+    line-height:  3;
+    
+}
+
+.signup {
+    background-color: hsl(71, 67%, 60%);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 75px;
+    margin: 15px;
+    font-size: 15px;
+    color: white;
+    box-shadow:rgb(55, 115, 122) 0 5px 25PX;
+    line-height: 2;
+    margin-left :40px;
+    margin-top :10px;
+}
+
+
+.third p4 {
+    color: white;
+    line-height: 5;
+    padding-left : 50px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.third p5 {
+    color: rgb(185, 252, 255);
+    font-weight: 500;
+    padding-left : 50px;
+    line-height: 22px;
+    display :inline-block;
+    width : 200px;
+}
+
+@media screen and (max-width:375px){
+    .Container{
+            position:relative;
+            left : -327.5px;
+            height : 800px;
+            width : 330px;
+            top : -150px;
+
+    }
+    .main{
+        position: absolute;
+        top : 10px;
+        
+    }
+    .second{
+        position : absolute;
+        top :250px;
+        width : 100% !important;
+        height : 30% !important;
+    }
+    .third{
+        position: absolute;
+        top : 800px;
+        left : -400px;
+        width : 100% !important;
+
+    }
+    .main h2 {
+        line-height: -20px;
+        font-size : 20px;
+        position :relative;
+        top : -25px;
+    }
+    
+    .main p {
+        font-size : 16px;
+        position: relative;
+        top : -11px;
+        line-height: 1.5;
+    }
+    
+    .main p1 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .second span1 {
+        font-size: 15px;
+        letter-spacing:1px;
+        word-spacing: 5px;
+        line-height: 3;
+    }
+    
+    .second span2 {
+        font-size: 22px;
+        font-weight:  900;
+    }
+    
+    .second span3 {
+        font-size : 14px;
+        
+    }
+    .second p3 {
+        font-size : 14px;
+        
+    }
+    
+    .signup {
+        padding: 10px 95px;
+        margin: 15px;
+        font-size: 19px;
+        margin-left : 40px;
+    }
+    .third p4 {
+        line-height: 4;
+        font-size : 20px;
+        font-weight: 700;
+        
+    }
+    .third p5 {
+        font-size : 15px;
+        
+        
+    }
+    
+}
